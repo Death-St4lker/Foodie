@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Dish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgba(0, 0, 0, 0.7) url('img/fran.jpg') center center fixed;
+            background-size: cover;
+            background-blend-mode: darken;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+        .container {
+            margin-top: 30px;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.5) !important; /* Transparent black background */
+        }
+
+        .dish-card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .dropdown-menu a {
+            color: black;
+        }
+
+        .dropdown-menu a:hover {
+            color: white;
+            background-color: orangered;
+        }
+
+        .container h1 {
+            color: orangered;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Food Cuisine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="italy.html">Italian</a></li>
+                            <li><a class="dropdown-item" href="mexico.html">Mexican</a></li>
+                            <li><a class="dropdown-item" href="france.html">French</a></li>
+                            <li><a class="dropdown-item" href="china.html">Chinese</a></li>
+                            <li><a class="dropdown-item" href="japan.html">Japanese</a></li>
+                            <li><a class="dropdown-item" href="philippines.html">Filipino</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card dish-card mb-4">
+                    <img src="food/Coq.jpg" class="card-img-top" alt="Coq au Vin">
+                    <div class="card-body">
+                        <h5 class="card-title">Coq au Vin</h5>
+                        <p class="card-text">Chicken braised with red wine, mushrooms, onions, and bacon, creating a rich and flavorful dish.</p>
+                        <details> 
+                            <summary>Ingredients and Steps</summary> 
+                            <p><strong>Ingredients:</strong></p> 
+                            <ul> 
+                                <li>1 whole chicken (about 4 pounds), cut into pieces</li> 
+                                <li>Salt and pepper to taste</li> 
+                                <li>2 tablespoons all-purpose flour</li> 
+                                <li>4 ounces bacon, diced</li> 
+                                <li>2 tablespoons olive oil</li> 
+                                <li>1 onion, finely chopped</li> 
+                                <li>2 carrots, sliced</li> 
+                                <li>2 cloves garlic, minced</li> 
+                                <li>2 cups red wine (such as Burgundy)</li>
+                                 <li>1 cup chicken broth</li>
+                                 <li>2 tablespoons tomato paste</li> 
+                                 <li>1 bouquet garni (parsley, thyme, and bay leaf)</li> 
+                                 <li>1/2 pound mushrooms, sliced</li> 
+                                 <li>12 small pearl onions, peeled</li> 
+                                <li>2 tablespoons butter</li> 
+                                <li>Fresh parsley for garnish</li>
+                            </ul> 
+                            <p><strong>Steps:</strong></p> 
+                            <ol> 
+                                <li>Season the chicken pieces with salt and pepper. Dredge them in flour, shaking off any excess.</li> 
+                                <li>In a large Dutch oven or heavy-bottomed pot, cook the bacon over medium heat until crispy. Remove the bacon and set aside, leaving the rendered fat in the pot.</li> 
+                                <li>Add the olive oil to the pot and heat. Brown the chicken pieces on all sides, then remove and set aside.</li> 
+                                <li>Add the chopped onion, carrots, and garlic to the pot. Cook until the vegetables are softened, about 5 minutes.</li> 
+                                <li>Pour in the red wine and chicken broth, stirring to combine. Add the tomato paste and bouquet garni.</li> 
+                                <li>Return the chicken and bacon to the pot. Bring to a simmer, then cover and cook over low heat for about 1 1/2 hours, or until the chicken is tender.</li> 
+                                <li>In a separate skillet, melt the butter and sauté the mushrooms and pearl onions until golden brown.</li> 
+                                <li>Add the mushrooms and onions to the pot and cook for an additional 30 minutes.</li> 
+                                <li>Remove the bouquet garni and season the sauce with salt and pepper to taste.</li> 
+                                <li>Garnish with fresh parsley and serve hot.</li>
+                            </ol> 
+                        </details> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dish-card mb-4">
+                    <img src="food/ratatouille.jpg" class="card-img-top" alt="Ratatouille">
+                    <div class="card-body">
+                        <h5 class="card-title">Ratatouille</h5>
+                        <p class="card-text">A vegetable stew made with eggplant, zucchini, bell peppers, tomatoes, and herbs.</p>
+                        <details> 
+                            <summary>Ingredients and Steps</summary> 
+                            <p><strong>Ingredients:</strong></p> 
+                            <ul> 
+                                <li>1 eggplant, diced</li> 
+                                <li>2 zucchinis, sliced</li> 
+                                <li>1 yellow bell pepper, diced</li> 
+                                <li>1 red bell pepper, diced</li> 
+                                <li>1 onion, chopped</li> 
+                                <li>4 cloves garlic, minced</li> 
+                                <li>4 large tomatoes, chopped</li> 
+                                <li>1/4 cup olive oil</li> 
+                                <li>1 teaspoon dried thyme</li> 
+                                <li>1 teaspoon dried oregano</li> 
+                                <li>Salt and pepper to taste</li> 
+                                <li>Fresh basil for garnish (optional)</li>
+                            </ul> 
+                            <p><strong>Steps:</strong></p> 
+                            <ol> 
+                                <li>Preheat the oven to 375°F (190°C).</li> 
+                                <li>In a large skillet, heat the olive oil over medium heat. Add the chopped onion and garlic, and sauté until softened.</li> 
+                                <li>Add the eggplant, zucchini, bell peppers, and tomatoes to the skillet. Cook for about 10 minutes, stirring occasionally.</li> 
+                                <li>Season the vegetables with thyme, oregano, salt, and pepper. Stir to combine.</li> 
+                                <li>Transfer the vegetable mixture to a baking dish and cover with aluminum foil.</li> 
+                                <li>Bake in the preheated oven for about 30 minutes, until the vegetables are tender.</li> 
+                                <li>Remove from the oven and garnish with fresh basil, if desired.</li> 
+                                <li>Serve hot as a main dish or a side. Enjoy your delicious Ratatouille!</li>
+                            </ol> 
+                        </details> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dish-card mb-4">
+                    <img src="food/beef.jpg" class="card-img-top" alt="Bœuf Bourguignon">
+                    <div class="card-body">
+                        <h5 class="card-title">Bœuf Bourguignon</h5>
+                        <p class="card-text">Beef stew braised in red wine with onions, carrots, mushrooms, and bacon.</p>
+                        <details> 
+                            <summary>Ingredients and Steps</summary> 
+                            <p><strong>Ingredients:</strong></p> 
+                            <ul> 
+                                <li>3 pounds beef chuck, cut into 2-inch cubes</li> 
+                                <li>Salt and pepper to taste</li> 
+                                <li>2 tablespoons all-purpose flour</li> 
+                                <li>4 ounces bacon, diced</li> 
+                                <li>2 tablespoons olive oil</li> 
+                                <li>1 large onion, chopped</li> 
+                                <li>2 carrots, sliced</li> 
+                                <li>4 cloves garlic, minced</li> 
+                                <li>2 tablespoons tomato paste</li> 
+                                <li>3 cups red wine (such as Burgundy)</li> 
+                                <li>2 cups beef broth</li> 
+                                <li>1 bay leaf</li> 
+                                <li>1 teaspoon dried thyme</li> 
+                                <li>1/2 pound mushrooms, sliced</li> 
+                                <li>12 small pearl onions, peeled</li> 
+                                <li>2 tablespoons butter</li> 
+                                <li>Fresh parsley for garnish</li>
+                            </ul> 
+                            <p><strong>Steps:</strong></p> 
+                            <ol> 
+                                <li>Season the beef cubes with salt and pepper. Dredge them in flour, shaking off any excess.</li> 
+                                <li>In a large Dutch oven or heavy-bottomed pot, cook the bacon over medium heat until crispy. Remove the bacon and set aside, leaving the rendered fat in the pot.</li> 
+                                <li>Add the olive oil to the pot and heat. Brown the beef cubes on all sides, then remove and set aside.</li> 
+                                <li>Add the chopped onion, carrots, and garlic to the pot. Cook until the vegetables are softened, about 5 minutes.</li> 
+                                <li>Stir in the tomato paste and cook for 1-2 minutes.</li> 
+                                <li>Pour in the red wine and beef broth, stirring to combine. Add the bay leaf and thyme.</li> 
+                                <li>Return the beef and bacon to the pot. Bring to a simmer, then cover and cook over low heat for about 2 1/2 to 3 hours, or until the beef is tender.</li> 
+                                <li>In a separate skillet, melt the butter and sauté the mushrooms and pearl onions until golden brown.</li> 
+                                <li>Add the mushrooms and onions to the pot and cook for an additional 30 minutes.</li> 
+                                <li>Remove the bay leaf and season the sauce with salt and pepper to taste.</li> 
+                                <li>Garnish with fresh parsley and serve hot.</li>
+                            </ol> 
+                        </details> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dish-card mb-4">
+                    <img src="food/quiche.jpg" class="card-img-top" alt="Quiche Lorraine">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiche Lorraine</h5>
+                        <p class="card-text">Savory pie with a filling of eggs, cream, cheese, and bacon in a pastry crust.</p>
+                        <details> 
+                            <summary>Ingredients and Steps</summary> 
+                            <p><strong>Ingredients:</strong></p> 
+                            <ul> 
+                                <li>1 pie crust (store-bought or homemade)</li> 
+                                <li>6 slices bacon, cooked and crumbled</li> 
+                                <li>1 cup shredded Gruyère or Swiss cheese</li> 
+                                <li>3 large eggs</li> 
+                                <li>1 1/2 cups heavy cream</li> 
+                                <li>1/4 teaspoon salt</li> 
+                                <li>1/4 teaspoon black pepper</li> 
+                                <li>1/4 teaspoon ground nutmeg (optional)</li> 
+                                <li>1 tablespoon chopped fresh chives (optional)</li>
+                            </ul> 
+                            <p><strong>Steps:</strong></p> 
+                            <ol> 
+                                <li>Preheat the oven to 375°F (190°C).</li> 
+                                <li>Roll out the pie crust and fit it into a 9-inch pie dish. Trim the edges and prick the bottom with a fork.</li> 
+                                <li>Blind bake the pie crust by lining it with parchment paper and filling it with pie weights or dried beans. Bake for about 15 minutes, then remove the parchment paper and weights and bake for an additional 5 minutes. Let cool slightly.</li> 
+                                <li>Sprinkle the cooked and crumbled bacon and shredded cheese evenly over the bottom of the pie crust.</li> 
+                                <li>In a large bowl, whisk together the eggs, heavy cream, salt, pepper, and nutmeg (if using) until well combined.</li> 
+                                <li>Pour the egg mixture over the bacon and cheese in the pie crust.</li> 
+                                <li>Bake in the preheated oven for 30-35 minutes, or until the quiche is set and the top is lightly golden.</li> 
+                                <li>Let the quiche cool slightly before slicing. Garnish with chopped chives if desired.</li> 
+                                <li>Serve warm or at room temperature. Enjoy your delicious Quiche Lorraine!</li>
+                            </ol> 
+                        </details> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dish-card mb-4">
+                    <img src="food/creme.jpg" class="card-img-top" alt="Crème Brûlée">
+                    <div class="card-body">
+                        <h5 class="card-title">Crème Brûlée</h5>
+                        <p class="card-text">A creamy custard dessert with a caramelized sugar crust.</p>
+                        <details> 
+                            <summary>Ingredients and Steps</summary> 
+                            <p><strong>Ingredients:</strong></p> 
+                            <ul> 
+                                <li>2 cups heavy cream</li> 
+                                <li>1 vanilla bean or 1 teaspoon vanilla extract</li> 
+                                <li>5 large egg yolks</li> 
+                                <li>1/2 cup granulated sugar (plus extra for caramelizing)</li> 
+                                <li>Pinch of salt</li>
+                            </ul> 
+                            <p><strong>Steps:</strong></p> 
+                            <ol> 
+                                <li>Preheat the oven to 325°F (160°C).</li> 
+                                <li>If using a vanilla bean, split it lengthwise and scrape out the seeds. Add the seeds and pod to a saucepan with the heavy cream. Heat the cream over medium heat until it just begins to simmer, then remove from heat and let it infuse for 10 minutes. If using vanilla extract, add it to the cream after heating.</li> <li>In a mixing bowl, whisk together the egg yolks, granulated sugar, and a pinch of salt until well combined and slightly pale.</li> 
+                                <li>Slowly pour the warm cream into the egg yolk mixture, whisking constantly to avoid curdling the eggs.</li> 
+                                <li>Strain the mixture through a fine-mesh sieve into a large measuring cup or bowl to remove any solids or the vanilla bean pod.</li> 
+                                <li>Divide the custard mixture evenly among 4 to 6 ramekins.</li> 
+                                <li>Place the ramekins in a baking dish and carefully pour hot water into the dish until it reaches halfway up the sides of the ramekins.</li> 
+                                <li>Bake in the preheated oven for 35-40 minutes, or until the custards are set but still slightly jiggly in the center.</li> 
+                                <li>Remove the ramekins from the water bath and let them cool to room temperature, then refrigerate for at least 2 hours or overnight.</li> 
+                                <li>Before serving, sprinkle a thin layer of granulated sugar over the top of each custard. Use a kitchen torch to caramelize the sugar until it forms a golden, crispy crust. If you don't have a torch, you can use the broiler in your oven, watching carefully to prevent burning.</li> 
+                                <li>Let the caramelized sugar harden for a few minutes, then serve and enjoy your delicious Crème Brûlée!</li>
+                            </ol> 
+                        </details> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card dish-card mb-4">
+                    <img src="food/cros.jpg" class="card-img-top" alt="Croissants">
+                    <div class="card-body">
+                        <h5 class="card-title">Croissants</h5>
+                        <p class="card-text">Flaky, buttery pastries, often enjoyed with coffee for breakfast.</p>
+                        <details> 
+                            <summary>Ingredients and Steps</summary> 
+                            <p><strong>Ingredients:</strong></p> 
+                            <ul> 
+                                <li>4 cups all-purpose flour</li> 
+                                <li>1/4 cup granulated sugar</li> 
+                                <li>2 1/4 teaspoons (1 packet) active dry yeast</li> 
+                                <li>1 1/2 teaspoons salt</li> 
+                                <li>1 cup warm milk</li> 
+                                <li>1/2 cup warm water</li> 
+                                <li>1 1/2 cups unsalted butter, cold</li> 
+                                <li>1 egg (for egg wash)</li>
+                            </ul> 
+                            <p><strong>Steps:</strong></p> 
+                            <ol> 
+                                <li>In a large mixing bowl, combine the flour, sugar, yeast, and salt. Mix well.</li> 
+                                <li>Add the warm milk and water to the dry ingredients and mix until a dough forms.</li> 
+                                <li>Knead the dough on a lightly floured surface for about 10 minutes until smooth and elastic. Cover with plastic wrap and let it rise in a warm place for about 1 hour, or until doubled in size.</li> 
+                                <li>While the dough is rising, cut the cold butter into thin slices. Arrange the slices in a single layer between two sheets of plastic wrap, then use a rolling pin to flatten the butter into a rectangle about 1/4 inch thick. Refrigerate the butter until needed.</li> 
+                                <li>Once the dough has risen, punch it down and roll it out into a large rectangle on a lightly floured surface.</li> 
+                                <li>Place the flattened butter on one half of the dough, then fold the other half over the butter. Pinch the edges to seal the butter inside the dough.</li> 
+                                <li>Roll the dough out into a large rectangle again, then fold it into thirds like a letter. Wrap the dough in plastic wrap and refrigerate for 30 minutes.</li> 
+                                <li>Repeat the rolling and folding process two more times, refrigerating for 30 minutes between each fold.</li> 
+                                <li>After the final fold, roll the dough out into a large rectangle about 1/4 inch thick. Cut the dough into triangles.</li> 
+                                <li>Roll each triangle up from the wide end to the point, forming a crescent shape. Place the croissants on a baking sheet lined with parchment paper.</li> 
+                                <li>Cover the croissants with a clean kitchen towel and let them rise in a warm place for about 1 hour, or until doubled in size.</li> 
+                                <li>Preheat the oven to 400°F (200°C). Brush the croissants with a beaten egg for a shiny, golden finish.</li> 
+                                <li>Bake the croissants for 15-20 minutes, or until golden brown and flaky.</li> 
+                                <li>Let cool slightly before serving. Enjoy your delicious homemade croissants!</li>
+                            </ol> 
+                        </details> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

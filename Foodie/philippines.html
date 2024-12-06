@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Dish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgba(0, 0, 0, 0.7) url('img/pinoyyy.webp') center center fixed;
+            background-size: cover;
+            background-blend-mode: darken;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+        .container {
+            margin-top: 30px;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.5) !important; /* Transparent black background */
+        }
+
+        .dish-card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .dropdown-menu a {
+            color: black;
+        }
+
+        .dropdown-menu a:hover {
+            color: white;
+            background-color: orangered;
+        }
+
+        .container h1 {
+            color: orangered;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Food Cuisine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="italy.html">Italian</a></li>
+                            <li><a class="dropdown-item" href="mexico.html">Mexican</a></li>
+                            <li><a class="dropdown-item" href="france.html">French</a></li>
+                            <li><a class="dropdown-item" href="china.html">Chinese</a></li>
+                            <li><a class="dropdown-item" href="japan.html">Japanese</a></li>
+                            <li><a class="dropdown-item" href="philippines.html">Filipino</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<div class="row">  
+    <div class="row"> 
+        <div class="col-md-4"> 
+            <div class="card dish-card mb-4"> 
+                <img src="food/lechon.jpg" class="card-img-top" alt="Lechon"> 
+                <div class="card-body"> 
+                    <h5 class="card-title">Lechon</h5> 
+                    <p class="card-text">A whole roasted pig with crispy skin and tender meat, often served during celebrations.</p> 
+                <details> 
+                    <summary>Ingredients and Steps</summary> 
+                    <p><strong>Ingredients:</strong></p> 
+                    <ul> <li>Whole pig</li> 
+                        <li>Salt</li> 
+                        <li>Pepper</li> 
+                        <li>Lemongrass</li> 
+                        <li>Garlic</li> 
+                        <li>Onion</li> 
+                        <li>Soy sauce</li> 
+                        <li>Vinegar</li> 
+                        <li>Water</li> 
+                    </ul> 
+                    <p><strong>Steps:</strong></p> 
+                    <ol> 
+                        <li>Clean the pig thoroughly, removing any hair and innards. Rinse it with water and pat dry.</li> 
+                        <li>Rub the inside and outside of the pig with salt and pepper. Stuff the cavity with lemongrass, garlic, onions, and other aromatic herbs and spices.</li> 
+                        <li>Optionally, marinate the pig with a mixture of soy sauce, vinegar, and other seasonings overnight.</li> 
+                        <li>Carefully skewer the pig lengthwise on a large bamboo pole or metal rod. Ensure it is securely fastened.</li> 
+                        <li>Prepare a large charcoal pit or spit-roasting setup. Roast the pig slowly over an open flame or charcoal, turning it continuously to ensure even cooking.</li> 
+                        <li>Baste the pig occasionally with a mixture of water, vinegar, and soy sauce to keep the skin moist and enhance flavor.</li> 
+                        <li>The roasting process can take several hours, depending on the size of the pig. It is done when the skin is crispy and the meat is tender. Check the internal temperature with a meat thermometer; it should read at least 160°F (71°C).</li> 
+                        <li>Once done, carefully remove the pig from the skewer and place it on a serving tray. Carve and serve the lechon with your favorite dipping sauces.</li> 
+                    </ol>
+                </details> 
+            </div> 
+        </div> 
+    </div>
+   <div class="col-md-4"> 
+    <div class="card dish-card mb-4"> 
+        <img src="food/adobo.jpg" class="card-img-top" alt="Chicken Adobo"> 
+        <div class="card-body"> 
+            <h5 class="card-title">Chicken Adobo</h5> 
+            <p class="card-text">A classic Filipino dish featuring chicken marinated in vinegar, soy sauce, garlic, and spices, then slow-cooked.</p> 
+            <details> <summary>Ingredients and Steps</summary> 
+                <p><strong>Ingredients:</strong></p> 
+                <ul> 
+                    <li>Chicken</li> 
+                    <li>Vinegar</li> 
+                    <li>Soy sauce</li> 
+                    <li>Garlic</li> 
+                    <li>Bay leaves</li> 
+                    <li>Black peppercorns</li> 
+                    <li>Water</li> 
+                </ul> 
+                <p><strong>Steps:</strong></p> 
+                <ol> 
+                    <li>Marinate chicken in vinegar, soy sauce, and garlic.</li> 
+                    <li>Sear the chicken until browned.</li> 
+                    <li>Add water, bay leaves, and peppercorns, then simmer until tender.</li> 
+                </ol> 
+            </details> 
+        </div> </div> 
+    </div> 
+    <div class="col-md-4"> 
+        <div class="card dish-card mb-4"> 
+            <img src="food/halo.jpg" class="card-img-top" alt="Halo-Halo"> 
+            <div class="card-body"> 
+                <h5 class="card-title">Halo-Halo</h5> 
+                <p class="card-text">A popular Filipino dessert made of shaved ice, sweetened fruits, jellies, and topped with ube and ice cream.</p> 
+                <details> <summary>Ingredients and Steps</summary> 
+                    <p><strong>Ingredients:</strong></p> 
+                    <ul> 
+                        <li>Shaved ice</li> 
+                        <li>Sweetened fruits</li> 
+                        <li>Jellies</li> 
+                        <li>Ube</li> 
+                        <li>Ice cream</li> 
+                    </ul> 
+                    <p><strong>Steps:</strong></p> 
+                    <ol> 
+                        <li>Layer sweetened fruits and jellies in a glass.</li> 
+                        <li>Add shaved ice on top.</li> 
+                        <li>Top with ube and ice cream.</li> </ol> 
+                </details> 
+            </div> 
+        </div> 
+    </div> 
+    <div class="col-md-4"> 
+        <div class="card dish-card mb-4"> 
+            <img src="food/sinigang.webp" class="card-img-top" alt="Sinigang"> 
+            <div class="card-body"> 
+                <h5 class="card-title">Sinigang</h5> 
+                <p class="card-text">A tangy and savory soup made with pork, tamarind, and various vegetables.</p> 
+                <details> 
+                    <summary>Ingredients and Steps</summary> 
+                    <p><strong>Ingredients:</strong></p> 
+                    <ul> 
+                        <li>Pork</li> 
+                        <li>Tamarind</li> 
+                        <li>Water spinach (kangkong)</li> 
+                        <li>Radish</li> 
+                        <li>String beans</li> 
+                        <li>Tomatoes</li> 
+                        <li>Onion</li> 
+                        <li>Fish sauce</li> 
+                    </ul> 
+                    <p><strong>Steps:</strong></p> 
+                    <ol> 
+                        <li>Boil pork until tender, skimming off any scum that rises to the surface.</li> 
+                        <li>Add tomatoes and onions, and continue boiling.</li> 
+                        <li>Add tamarind and fish sauce for flavor.</li> 
+                        <li>Add vegetables and simmer until cooked.</li> 
+                    </ol> 
+                </details> 
+            </div> 
+        </div> 
+    </div> 
+    <div class="col-md-4"> 
+        <div class="card dish-card mb-4"> 
+            <img src="food/kare.jfif" class="card-img-top" alt="Kare-Kare"> 
+            <div class="card-body">
+                <h5 class="card-title">Kare-Kare</h5> 
+                <p class="card-text">A rich Filipino stew made with oxtail, tripe, vegetables, and a thick peanut sauce.</p> 
+                <details> 
+                    <summary>Ingredients and Steps</summary>
+                     <p><strong>Ingredients:</strong></p> 
+                     <ul>
+                         <li>Oxtail</li> 
+                         <li>Tripe</li> 
+                         <li>Eggplant</li> 
+                         <li>String beans</li> 
+                         <li>Bok choy</li> 
+                         <li>Peanut butter</li> 
+                         <li>Ground peanuts</li> 
+                         <li>Annatto seeds</li> 
+                         <li>Garlic</li> 
+                         <li>Onion</li> 
+                         <li>Rice flour</li> 
+                         <li>Water</li> 
+                    </ul> 
+                    <p><strong>Steps:</strong></p> 
+                    <ol> 
+                        <li>Boil oxtail and tripe until tender, then set aside.</li> 
+                        <li>Saute garlic and onion, add annatto seeds for color.</li> 
+                        <li>Add boiled meats and simmer in peanut butter and ground peanuts.</li> 
+                        <li>Thicken with rice flour dissolved in water.</li> 
+                        <li>Add vegetables and cook until tender.</li> 
+                    </ol> 
+                </details> 
+            </div> 
+        </div>
+    </div>
+    <div class="col-md-4"> 
+        <div class="card dish-card mb-4"> 
+            <img src="food/chinasal.jpg"class="card-img-top" alt="Chicken Inasal"> 
+            <div class="card-body">
+                <h5 class="card-title">Chicken Inasal</h5> 
+                <p class="card-text">Grilled chicken marinated in a mixture of lime, pepper, vinegar, and annatto.</p> 
+                <details> 
+                        <summary>Ingredients and Steps</summary> 
+                        <p><strong>Ingredients:</strong></p> 
+                        <ul> 
+                            <li>Chicken pieces (preferably thighs and drumsticks)</li> 
+                            <li>Calamansi or lime juice</li> 
+                            <li>Vinegar</li> 
+                            <li>Garlic, minced</li> 
+                            <li>Ginger, minced</li> 
+                            <li>Annatto oil (achiote oil)</li> 
+                            <li>Soy sauce</li> 
+                            <li>Sugar</li> 
+                            <li>Salt</li> 
+                            <li>Black pepper</li> 
+                        </ul> 
+                        <p><strong>Steps:</strong></p> 
+                        <ol> 
+                            <li>In a bowl, combine calamansi juice, vinegar, garlic, ginger, annatto oil, soy sauce, sugar, salt, and black pepper to create the marinade.</li>
+                             <li>Add the chicken pieces to the marinade, ensuring they are well coated. Marinate for at least 3 hours or overnight for best results.</li> 
+                             <li>Preheat the grill to medium heat.</li> 
+                             <li>Grill the chicken pieces, basting occasionally with the remaining marinade, until fully cooked and the skin is nicely charred.</li> 
+                             <li>Serve hot with steamed rice and dipping sauces like vinegar with garlic and chili.</li> 
+                        </ol> 
+                    </details> 
+                </div> 
+            </div> 
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
